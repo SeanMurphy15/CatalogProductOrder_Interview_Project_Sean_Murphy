@@ -14,6 +14,10 @@
 		4384A7342C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4384A7332C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectTests.swift */; };
 		4384A73E2C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4384A73D2C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectUITests.swift */; };
 		4384A7402C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4384A73F2C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectUITestsLaunchTests.swift */; };
+		4384A74D2C668CE700FA64C7 /* Instructions.md in Resources */ = {isa = PBXBuildFile; fileRef = 4384A74C2C668CE700FA64C7 /* Instructions.md */; };
+		4384A74F2C668CF200FA64C7 /* Bonus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4384A74E2C668CF200FA64C7 /* Bonus.swift */; };
+		4384A7512C668D2600FA64C7 /* CatalogProductDetails.png in Resources */ = {isa = PBXBuildFile; fileRef = 4384A7502C668D2600FA64C7 /* CatalogProductDetails.png */; };
+		4384A7532C668D2C00FA64C7 /* CatalogProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4384A7522C668D2C00FA64C7 /* CatalogProducts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		4384A7392C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatalogProductOrder_Interview_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4384A73D2C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProductOrder_Interview_ProjectUITests.swift; sourceTree = "<group>"; };
 		4384A73F2C668CD600FA64C7 /* CatalogProductOrder_Interview_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProductOrder_Interview_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4384A74C2C668CE700FA64C7 /* Instructions.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Instructions.md; sourceTree = "<group>"; };
+		4384A74E2C668CF200FA64C7 /* Bonus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bonus.swift; sourceTree = "<group>"; };
+		4384A7502C668D2600FA64C7 /* CatalogProductDetails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CatalogProductDetails.png; sourceTree = "<group>"; };
+		4384A7522C668D2C00FA64C7 /* CatalogProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogProducts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,10 @@
 		4384A7212C668CD400FA64C7 /* CatalogProductOrder_Interview_Project */ = {
 			isa = PBXGroup;
 			children = (
+				4384A74C2C668CE700FA64C7 /* Instructions.md */,
+				4384A7522C668D2C00FA64C7 /* CatalogProducts.swift */,
+				4384A7502C668D2600FA64C7 /* CatalogProductDetails.png */,
+				4384A74E2C668CF200FA64C7 /* Bonus.swift */,
 				4384A7222C668CD400FA64C7 /* CatalogProductOrder_Interview_ProjectApp.swift */,
 				4384A7242C668CD400FA64C7 /* ContentView.swift */,
 				4384A7262C668CD500FA64C7 /* Assets.xcassets */,
@@ -233,6 +245,8 @@
 			files = (
 				4384A72A2C668CD500FA64C7 /* Preview Assets.xcassets in Resources */,
 				4384A7272C668CD500FA64C7 /* Assets.xcassets in Resources */,
+				4384A7512C668D2600FA64C7 /* CatalogProductDetails.png in Resources */,
+				4384A74D2C668CE700FA64C7 /* Instructions.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +273,8 @@
 			files = (
 				4384A7252C668CD400FA64C7 /* ContentView.swift in Sources */,
 				4384A7232C668CD400FA64C7 /* CatalogProductOrder_Interview_ProjectApp.swift in Sources */,
+				4384A74F2C668CF200FA64C7 /* Bonus.swift in Sources */,
+				4384A7532C668D2C00FA64C7 /* CatalogProducts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
