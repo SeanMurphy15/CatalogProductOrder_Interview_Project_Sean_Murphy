@@ -1,14 +1,14 @@
 import Foundation
 
 
-struct CatalogProduct {
+struct CatalogProduct: Identifiable {
 
     let id = UUID()
     let name: String
     let productDescription: String
     let size: String?
     let price: Double
-
+    let displayPrice: String
 
     init(
         name: String,
@@ -20,6 +20,7 @@ struct CatalogProduct {
         self.productDescription = productDescription
         self.size = size
         self.price = price
+        self.displayPrice = currencyFormatter.string(from: price)
     }
 
 }
